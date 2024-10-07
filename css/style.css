@@ -18,6 +18,15 @@ body {
     justify-content: center;
 }
 
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
 /***************** HEADER ***************************/
 
 .header-container {
@@ -88,6 +97,16 @@ body {
 }
 
 
+
+/***** INFO GROUP - CONTAINER ************/
+
+.infogroup-container {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 /***** INFO GROUP - HEADLINE ************/
 
 .infogroup-headline {
@@ -105,10 +124,10 @@ body {
 
 /***** INFO GROUP - SEARCHBAR ************/
 
-.infogroup-searchbar {
+/* .infogroup-searchbar {
     margin-top: 20px;
     margin-bottom: 40px;
-}
+} */
 
 .infogroup-searchbar-container {
     display: flex;
@@ -155,6 +174,94 @@ body {
     color: black;     /* Couleur de l'icône */
   }
 
+
+
+
+/***** INFO GROUP - FILTERBAR ************/
+
+
+.infogroup-filterbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-content: center;
+
+}
+
+#infogroup-filterbar-title{
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+
+
+/* Style général du bouton */
+.btn-rounded {
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center; /* Pour centrer verticalement */
+    padding-top: 4px;
+    padding-right: 19px;
+    padding-bottom: 4px;
+    padding-left: 19px;
+    background-color: white;
+    color: black;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px; /* Coins arrondis */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* Style de l'icône */
+.btn-rounded .icon {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+    font-size: 20px; /* Taille de l'icône */
+}
+
+/* Effet hover */
+.btn-rounded:hover {
+    background-color: #DEEBFF;
+}
+
+
+/***** INFO GROUP - INFOBAR ************/
+
+.infogroup-infobar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 24px;
+}
+
+
+.infogroup-infobar-icon {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #D9D9D9;
+    border-radius: 15px;
+}
+
+.infogroup-infobar-txt{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.fa-info{
+    font-size: 12px;
+}
 
 
 /******************************/
