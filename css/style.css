@@ -471,6 +471,30 @@ a {
 }
 
 
+/************* FOOTER ***********************/
+
+.footer-container{
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
