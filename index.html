@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -22,7 +22,7 @@
             <div class="header-container">
 
                 <div class="header-logo">
-                    <img src="./images/logo/Booki.png" height="19px" alt="Logo Booki" />
+                    <img src="./images/logo/Booki.png" alt="Logo Booki">
                 </div>
 
                 <nav class="header-menu">
@@ -48,7 +48,7 @@
 
                 <div class="infogroup-searchbar">
 
-                    <form method="get" action="">
+                    <form method="get" action="#">
 
                         <div class="infogroup-searchbar-container">
 
@@ -61,7 +61,11 @@
                             </div>
 
                             <div id="infogroup-searchbar-rechercher">
-                                <input type="submit" value="Rechercher">
+                            
+                                <button type="submit">
+                                    <i class="fas fa-search"></i> <!-- Icône de loupe -->
+                                    <span>Rechercher</span> <!-- Texte du bouton (masqué en mode mobile) -->
+                                </button>
                             </div>
 
                         </div>
@@ -72,36 +76,34 @@
 
                 <div class="infogroup-filterbar">
 
-                    <div id="infogroup-filterbar-title">Filtres</div>
+                    <div id="infogroup-filterbar-title">
+                        <span>Filtres</span>
+                    </div>
 
-                    <div>
-                        <button class="btn-rounded">
+                    <div id="infogroup-filterbar-boutons">
+
+                        <a class="btn-rounded" href="#">
                             <i class="fa-solid fa-money-bill-wave"></i>
                             <span>Economique</span>
-                        </button>
-                    </div>
+                        </a>
 
-
-                    <div>
-                        <button class="btn-rounded">
+                        <a class="btn-rounded" href="#">
                             <i class="fa-solid fa-person"></i>
                             <span>Familial</span>
-                        </button>
-                    </div>
+                        </a>
 
-                    <div>
-                        <button class="btn-rounded">
+                        <a class="btn-rounded" href="#">
                             <i class="fa-solid fa-heart"></i>
                             <span>Romantique</span>
-                        </button>
-                    </div>
+                        </a>
 
-                    <div>
-                        <button class="btn-rounded">
+                        <a class="btn-rounded" href="#">
                             <i class="fa-solid fa-fire"></i>
                             <span>Nos pépites</span>
-                        </button>
+                        </a>
+
                     </div>
+
 
                 </div>
 
@@ -129,8 +131,8 @@
 
                     <div class="hebergements-cards">
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article >
 
                                 <img src="./images/hebergements/fred-kleber.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
@@ -155,8 +157,8 @@
                         </a>
 
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/hebergements/febrian-zakaria.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
@@ -181,8 +183,8 @@
                         </a>
 
                         
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/hebergements/reisetopia.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
@@ -207,8 +209,8 @@
                         </a>
 
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/hebergements/annie-spratt.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
@@ -233,8 +235,8 @@
                         </a>
 
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/hebergements/marcus-loke.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
@@ -259,8 +261,8 @@
                         </a>
 
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/hebergements/nicate-lee.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
@@ -374,8 +376,8 @@
 
                     <div class="activites-cards">
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/activites/reno-laithienne.jpg" alt="Image du vieux-port">
                             
@@ -386,8 +388,8 @@
                             </article>
                         </a>
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de Pomègues">
                             
@@ -398,8 +400,8 @@
                             </article>
                         </a>
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc National des Calanques">
                             
@@ -410,8 +412,8 @@
                             </article>
                         </a>
 
-                        <a href="#">
-                            <article class="card">
+                        <a href="#" class="card">
+                            <article>
 
                                 <img src="./images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-Garde">
                             
@@ -436,28 +438,22 @@
             <div class="footer-container">
             
                 <div class="footer-section">
-                    <div>
-                        <h3 class="footer-title">A propos</h3>
-                    </div>
-                    <div> <a href="#">Fonctionnement du site</a> </div>
-                    <div> <a href="#">Conditions générales</a></div>
-                    <div> <a href="#">Données et confidentialités</a></div>
+                    <h3 class="footer-title">A propos</h3>
+                    <a href="#">Fonctionnement du site</a>
+                    <a href="#">Conditions générales</a>
+                    <a href="#">Données et confidentialités</a>
                 </div>
             
                 <div class="footer-section">
-                    <div>
-                        <h3 class="footer-title">Nos hébergements</h3>
-                    </div>
-                    <div><a href="#">Charte qualité</a></div>
-                    <div><a href="#">Proposer votre hôtel</a></div>
+                    <h3 class="footer-title">Nos hébergements</h3>
+                    <a href="#">Charte qualité</a>
+                    <a href="#">Proposer votre hôtel</a>
                 </div>
             
                 <div class="footer-section">
-                    <div>
-                        <h3 class="footer-title">Assistance</h3>
-                    </div>
-                    <div><a href="#">Centre d'aide</a></div>
-                    <div><a href="#">Nous contacter</a></div>
+                    <h3 class="footer-title">Assistance</h3>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Nous contacter</a>
                 </div>
             
             </div>
